@@ -1,0 +1,7 @@
+html{
+    font-size: 14px;
+}
+
+.main {
+    min-height: calc(100vh - (48.8px + 48.8px + 42px + 21px));
+}
