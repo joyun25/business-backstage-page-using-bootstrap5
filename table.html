@@ -52,7 +52,7 @@
                         <th width="120">Name</th>
                         <th width="200">Email</th>
                         <th width="120">狀態</th>
-                        <th class="text-right" width="120">金額</th>
+                        <th class="text-end" width="120">金額</th>
                         <th width="150" class="text-center">操作</th>
                     </tr>
                 </thead>
@@ -65,7 +65,7 @@
                         </td>
                         <td>Mark@mail.com</td>
                         <td>已出貨</td>
-                        <td class="text-right">NT$ 899</td>
+                        <td class="text-end">NT$ 899</td>
                         <td class="text-center">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Button group with nested dropdown">
                                 <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#editModal" data-title="編輯 超纖細肥皂 1盒 訂單">編輯</button>
@@ -92,10 +92,8 @@
                             <span class="badge rounded-pill bg-success">常客</span>
                         </td>
                         <td>Jacob@mail.com</td>
-                        <td>
-                            <span class="text-danger">缺貨</span>
-                        </td>
-                        <td class="text-right">NT$ 3,600</td>
+                        <td class="text-danger">缺貨</td>
+                        <td class="text-end">NT$ 3,600</td>
                         <td class="text-center">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Button group with nested dropdown">
                                 <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#editModal" data-title="編輯 (保證)無泡泡沐浴乳 5罐 訂單">編輯</button>
@@ -121,7 +119,7 @@
                         <td>Larry</td>
                         <td>Larry@mail.com</td>
                         <td>已出貨</td>
-                        <td class="text-right">NT$ 14,060</td>
+                        <td class="text-end">NT$ 14,060</td>
                         <td class="text-center">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Button group with nested dropdown">
                                 <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#editModal" data-title="編輯 防滑燈罩 100個 訂單">編輯</button>
@@ -198,11 +196,11 @@
                         <div class="row align-items-center">
                             <div class="col-6">
                                 <label for="productName" class="col-form-label">品項*</label>
-                                <input type="text" id="productName" class="form-control" required>
+                                <input type="text" id="productName" class="form-control" placeholder="超纖細肥皂" required>
                             </div>
                             <div class="col-6">
                                 <label for="productNumber" class="col-form-label">數量*</label>
-                                <input type="number" id="productNumber" class="form-control" required>
+                                <input type="number" id="productNumber" class="form-control" placeholder="1" required>
                             </div>
                         </div>
                     </div>
@@ -234,7 +232,7 @@
 
     <!-- footer -->
     <footer class="mt-5 py-3 bg-light text-secondary text-center">
-        六角學院後台管理系統
+        <p>六角學院後台管理系統</p>
     </footer>
 
     <!-- javascript -->
