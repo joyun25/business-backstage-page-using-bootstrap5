@@ -1,7 +1,7 @@
 # 六角學院切版作業
 版型皆出自 [六角學院](https://www.hexschool.com/)線上課程作業，僅作切版練習
 ### Bootstrap5-商務控制後台：[Github Pages](https://joyun25.github.io/business-control-backstage/)
-![](https://i.imgur.com/3Y5CPLE.png)
+![](https://i.imgur.com/D63rDT8.png)
 #### 功能：
 - 兩頁式
 - 商品管理控制 彈出式視窗
